@@ -11,8 +11,8 @@ export default function HomeScreen() {
 
 
     return (
-        <div>
-            <button onClick={handleClick}>
+        <div className="container">
+            <button className="button" onClick={handleClick}>
             AR
             </button>
         </div>
